@@ -204,6 +204,12 @@ h3 {
 }
 }
 
+@media (max-width: 773px) {
+	.first-half, .second-half {
+		width: 45%;
+	}
+}
+
 @media (max-width: 700px) {
 	.first-half, .second-half {
 		width: 100%;

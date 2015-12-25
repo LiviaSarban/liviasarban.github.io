@@ -190,7 +190,7 @@ h3 {
 	line-height: 1.2em;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
 	.first-half, .second-half {
 		width: 100%;
 	}

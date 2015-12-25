@@ -92,6 +92,7 @@ IMAGES
 img {
 	max-width: 100%;
 	height: auto;
+	min-width: 32px;
 }
 
 .introduction img {
@@ -178,4 +179,25 @@ h3 {
     letter-spacing: -0.02em;
     text-transform: uppercase;
     text-shadow: 3px 3px 3px #FFFFFF;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 900px) {
+
+	h1, h2, h3 {
+	line-height: 1.2em;
+}
+
+@media (max-width: 600px) {
+	.first-half, .second-half {
+		width: 100%;
+	}
+
+	img.first-half {
+		width: 50%;
+		float: none;
+		margin: 0 25% 0 25%;
+	}
 }

@@ -106,6 +106,8 @@ img {
   
 	/* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
   	border-radius: 50%; 
+  	max-width: 271px;
+  	min-width: 252px;
 }
 
 /*************************************************************************
@@ -184,10 +186,22 @@ h3 {
 
 /* Media Queries */
 
+@media (max-width: 990px) {
+	.first-half {
+		width: 40%;
+		max-width: 252px;
+	}
+
+	.second-half {
+		width: 50%;
+	}
+}
+
 @media (max-width: 900px) {
 
 	h1, h2, h3 {
 	line-height: 1.2em;
+}
 }
 
 @media (max-width: 700px) {
@@ -195,8 +209,8 @@ h3 {
 		width: 100%;
 	}
 
-	img.first-half {
-		width: 50%;
+	.first-half {
+		max-width: 216px;
 		float: none;
 		margin: 0 25% 0 25%;
 	}

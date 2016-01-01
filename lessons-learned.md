@@ -6,3 +6,4 @@
 4. Below 920px I should probably wrap the text around the image/ make the second paragraph take up 100% of the space available.
 5. I want "Hi there!" to be aligned with the top of the image, but I have no idea what I did to make it be a bit lower :scream:
 6. I feel my headings are a bit too big, but don't know which would be the correct ratio between them.
+7. :omg: Github recognizes emojis, I forgot about that - best thing today :grin:

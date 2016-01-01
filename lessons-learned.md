@@ -3,13 +3,11 @@
 ## January 1st, 2016 Session:
 
 1. Create your own workflow. Workflow suggestion:
-
-* start with a wireframe;
-* create the HTML code;
-* add stylesheets and other attachments;
-* write CSS;
-* test in browser.
-
+  * start with a wireframe;
+  * create the HTML code;
+  * add stylesheets and other attachments;
+  * write CSS;
+  * test in browser.
 2. For responsive design, use min-width rather than max-width.
 3. Don't forget to add <meta name="viewport" content="width=device-width, initial-scale=1"> in the HTML head: https://css-tricks.com/snippets/html/responsive-meta-tag/
 4. Make sure the line-height is at least the same size like the font size.
